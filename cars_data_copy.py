@@ -16,6 +16,8 @@ import numpy as np
 st.title('car details')
 st.write('This is a table')
 
+
+with st.sidebar.header('1. Upload your CSV data'):
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
 if uploaded_file is not None:
     input_df = pd.read_csv(uploaded_file)
