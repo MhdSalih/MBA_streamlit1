@@ -25,7 +25,7 @@ if upload_file is not None:
   print('hello')
   try:
     df = pd.read_csv(upload_file)
-  execept Exception as e:
+  except Exception as e:
     print(e)
     df = pd.read_excel(uploade_file)
     
