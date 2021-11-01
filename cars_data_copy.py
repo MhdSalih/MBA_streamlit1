@@ -17,7 +17,9 @@ import numpy as np
 st.title('car details')
 st.write('This is a table')
 
-st.sidebar.file_uploader(label="upload your csv")
+df=st.sidebar.file_uploader(label="upload your csv",type=["csv"])
+
+
 
 
 
