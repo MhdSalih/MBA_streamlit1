@@ -17,10 +17,13 @@ import numpy as np
 st.title('car details')
 st.write('This is a table')
 
-df=st.sidebar.file_uploader(label="upload your csv",type=["csv"])
+upload_file=st.sidebar.file_uploader(label="upload your csv",type=["csv"])
 
 
-
+if upload_file is not None:
+  print('hello')
+  try:
+    df = pd.read_csv(upload_file)
 
 
 # In[16]:
