@@ -17,13 +17,18 @@ import numpy as np
 st.title('car details')
 st.write('This is a table')
 
-upload_file=st.sidebar.file_uploader(label="upload your csv",type=["csv"])
+upload_file=st.sidebar.file_uploader(label="upload your csv or excel file",type=["csv","xlsx"])
 
 
 if upload_file is not None:
+  print(upload_file)
   print('hello')
   try:
     df = pd.read_csv(upload_file)
+  execept Exception as e:
+    print(e)
+    df = pd.read_excel(uploade_file)
+    
 
 
 # In[16]:
