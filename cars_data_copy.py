@@ -19,7 +19,7 @@ st.write('This is a table')
 
 upload_file=st.sidebar.file_uploader(label="upload your csv or excel file",type=["csv","xlsx"])
 
-
+global df
 if upload_file is not None:
   print(upload_file)
   print('hello')
