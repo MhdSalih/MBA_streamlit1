@@ -20,7 +20,7 @@ st.write("""
 
 
 df=pd.read_csv("MBA_data12")
-
+df=pd.DataFrame(df)
 
 # In[11]:
 
