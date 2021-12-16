@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run cars_data_copy.py
+web: sh setup.sh && streamlit run MBA_analysis.py
