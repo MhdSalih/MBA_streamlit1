@@ -19,7 +19,7 @@ st.write("""
 # In[ ]:
 
 
-df=pd.read_csv("MBA_data_1.xlsx")
+df=pd.read_excel("MBA_data_1.xlsx")
 df=pd.DataFrame(df)
 
 # In[11]:
