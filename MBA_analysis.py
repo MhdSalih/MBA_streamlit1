@@ -19,7 +19,7 @@ st.write("""
 # In[ ]:
 
 
-df=pd.read_csv(r"C:\Users\User\Desktop\MBA_data12")
+df=pd.read_csv("MBA_data12")
 
 
 # In[11]:
