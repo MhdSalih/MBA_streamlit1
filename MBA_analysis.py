@@ -19,7 +19,7 @@ st.write("""
 # In[ ]:
 
 
-df=pd.read_excel(r"MBA_data_1.xlsx")
+df=pd.read_csv(r"C:\Users\User\Desktop\MBA_data12")
 
 
 # In[11]:
