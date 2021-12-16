@@ -25,7 +25,7 @@ df=pd.read_csv("MBA_data12")
 # In[11]:
 
 
-st.write(df)
+st.dataframe(df)
 
 
 # In[ ]:
