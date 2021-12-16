@@ -25,7 +25,7 @@ df=pd.DataFrame(df)
 # In[11]:
 
 
-st.dataframe(df)
+st.table(df)
 
 
 # In[ ]:
