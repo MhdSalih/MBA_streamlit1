@@ -20,7 +20,7 @@ st.write("""
 
 
 df=pd.read_csv("new_MBA.csv")
-df = df.drop(df.columns[[0, 1]], axis=1)
+
 df
 
 
