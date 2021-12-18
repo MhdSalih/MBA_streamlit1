@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run MBA_analysis (1).py 
+web: sh setup.sh && streamlit run market analysis_streamlit1.py.py
