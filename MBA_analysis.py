@@ -19,7 +19,7 @@ st.write("""
 # In[16]:
 
 
-df=pd.read_csv("MBA_data12")
+df=pd.read_csv("new_MBA.csv")
 
 
 # In[17]:
